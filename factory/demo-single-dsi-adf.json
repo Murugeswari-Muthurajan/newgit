@@ -1,0 +1,9 @@
+{
+	"name": "demo-single-dsi-adf",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "a598d586-b38b-4cd4-be73-bd8bcef816d6",
+		"tenantId": "8116a1d4-114e-45f1-b222-514a62386b11"
+	}
+}

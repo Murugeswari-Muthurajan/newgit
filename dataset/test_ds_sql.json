@@ -1,0 +1,49 @@
+{
+	"name": "test_ds_sql",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "test_ls_sql",
+			"type": "LinkedServiceReference"
+		},
+		"folder": {
+			"name": "test_dataset"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [
+			{
+				"name": "FirstName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "LastName",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Gender",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Country",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Age",
+				"type": "nvarchar"
+			},
+			{
+				"name": "Dates",
+				"type": "nvarchar"
+			},
+			{
+				"name": "id",
+				"type": "nvarchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "file_example_CSV_5000"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
